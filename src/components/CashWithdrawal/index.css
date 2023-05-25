@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdrawal-card {
+  border-radius: 15px;
+  background-color: #150b3e;
+  padding: 20px;
+  min-height: 350px;
+  width: 350px;
+}
+.dp-container {
+  display: flex;
+}
+.dp {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #d4d2db;
+  padding-left: 0.8rem;
+}
+.balnce-container {
+  display: flex;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.amount {
+  color: #ffffff;
+  font-size: 22px;
+}
+.rupees {
+  color: #585076;
+  font-size: 13px;
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 400;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 14px;
+  font-weight: 500;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
